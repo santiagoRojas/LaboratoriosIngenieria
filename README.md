@@ -8,7 +8,7 @@ Seguir las 6 fases de desarrollo de software si el proyecto consta de software
 4. Cumpla con los principios SOLID
 seguridad
 cumpla con los requerimientos
-5.A
-6.C
-7.B
-8.B
+5.  A
+6.  C
+7.  B
+8.  B
