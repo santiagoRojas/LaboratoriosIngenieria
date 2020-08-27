@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>CRUD</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>TODO write content</div>
+        <form method="post" action="NewServlet">
+                    <input type="hidden" name="id" value="<?php echo $alm->__GET('id'); ?>" />
+
+                    <table >
+                        <tr>
+                            <th >Nombre del equipo</th>
+                            <td><input type="text" name="Equipo_Nombre"   required /></td>
+                        </tr>
+                        <tr>
+                            <th >placa del inventario</th>
+                            <td><input type="text" name="Placa_Inventario" required /></td>
+                        </tr>
+                        <tr>
+                            <th >Serial</th>
+                            <td><input type="text" name="Serial" required/></td>
+                        </tr>
+                        <tr>
+                            <th >marca</th>
+                            <td><input type="text" name="Marca" required /></td>
+                        </tr>
+                        <tr>
+                            <th >Referencia</th>
+                            <td><input type="text" name="Referencia" required /></td>
+                        </tr>
+                    </table>
+                    <input type="submit" value="Guardar equipo">
+                </form>
+    </body>
+</html>
