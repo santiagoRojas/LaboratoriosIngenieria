@@ -12,7 +12,6 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.swing.JOptionPane;
 import mundo.Computador;
 
 /**
@@ -52,7 +51,7 @@ public class NewServlet extends HttpServlet {
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
-            out.println("<title>Servlet NewServlet</title>");            
+            out.println("<title>Respuesta del CRUD </title>");            
             out.println("</head>");
             out.println("<body>");
             out.println("<p>nombre del pc: ");
